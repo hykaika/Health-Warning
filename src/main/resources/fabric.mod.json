@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "health_warning",
+  "version": "${version}",
+  "name": "Health_warning",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/health_warning/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.hykaika.health_warning.client.Health_warningDataGenerator"
+    ],
+    "client": [
+      "com.hykaika.health_warning.client.Health_warningClient"
+    ],
+    "main": [
+      "com.hykaika.health_warning.Health_warning"
+    ]
+  },
+  "mixins": [
+    "health_warning.mixins.json",
+    {
+      "config": "health_warning.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  }
+}
