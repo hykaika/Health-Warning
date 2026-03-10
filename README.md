@@ -22,9 +22,4 @@ A lightweight Fabric mod that provides visual warnings when your health reaches 
 ## 🛠️ Development
 This project uses Gradle for building and dependency management.
 
-### Build Command:
-To build the mod from source, run:
-```bash
-./gradlew build
-You can find the compiled .jar file in the build/libs/ directory.
 Made with ❤️ by hykaika
