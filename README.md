@@ -9,7 +9,7 @@ A lightweight Fabric mod that provides visual warnings when your health reaches 
 
 ## ✨ Features
 * **Visual Alerts:** Get immediate feedback when your health is low.
-* **Client & Server Compatible:** Optimized for smooth gameplay on any setup.
+* **Client Compatible:** Optimized for smooth gameplay on any setup.
 * **Optimized Performance:** Extremely lightweight with zero impact on your FPS.
 * **Integrated Client:** Includes a dedicated Client initializer for clean execution.
 
