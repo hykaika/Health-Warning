@@ -23,7 +23,7 @@ public class Health_warningClient implements ClientModInitializer {
 
                 if (health <= 6.0f && !warningSent) {
 
-                    player.sendMessage(Text.literal("⚠ Warning! You only have 3 hearts left! Heal yourself so you don't die.⚠")
+                    player.sendMessage(Text.literal("⚠ Warning! You only have 3 hearts left! Heal yourself so you don't die. ⚠")
                             .formatted(Formatting.RED, Formatting.BOLD), false);
 
 
