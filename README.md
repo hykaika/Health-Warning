@@ -2,6 +2,7 @@
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21-blue?style=for-the-badge&logo=minecraft)
 ![Fabric](https://img.shields.io/badge/Fabric-Loader-orange?style=for-the-badge)
+
 A lightweight Fabric mod that provides visual warnings when your health reaches a critical level. Never miss the moment to eat a Golden Apple again!
 
 ---
